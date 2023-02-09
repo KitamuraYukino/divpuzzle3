@@ -20,13 +20,14 @@ body {
   width: 150px;
   height: 250px;
   background-color: #00ff51;
+  float: left;
 }
 
 .brown{
   width: 250px;
   height: 250px;
   background-color: #8c2727;
-  position: relative;
+  float: left;
 }
 
 .yellow{
@@ -40,15 +41,17 @@ body {
   height: 40px;
   background-color: #a9004b;
   float: left;
-  position: relative;
-  top: 10px;
-  left: 10px;
+  margin: 10px 0 0 10px;
 }
 
 .orange{
   width: 140px;
   height: 40px;
   background-color: #ff863f;
+  margin: 0 0 10px 0;
+  border: solid;
+  border-width: 5px;
+  border-color: #ffffff;
 }
 
 .white{
@@ -58,4 +61,10 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+.orange-boxes{
+  position: relative;
+  top: 40px;
+  left: 40px;
 }
