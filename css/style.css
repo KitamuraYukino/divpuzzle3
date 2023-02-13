@@ -10,10 +10,6 @@ body {
   clear: both;
 }
 
-#purple-margin div:first-child {
-  margin: 0;
-}
-
 #orange-box div:last-child {
   margin: 0;
 }
@@ -52,6 +48,10 @@ body {
   background-color: #a9004b;
   float: left;
   margin: 0 0 0 10px;
+}
+
+#purple-box div:first-child {
+  margin: 0;
 }
 
 .orange {
