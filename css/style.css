@@ -14,8 +14,8 @@ body {
   margin: 0;
 }
 
-#orange-margin  div:last-child {
-    margin: 0;
+#orange-box div:last-child {
+  margin: 0;
 }
 
 .red {
@@ -33,11 +33,11 @@ body {
 }
 
 .brown {
-  width: 210px;
-  height: 210px;
+  position: relative;
+  width: 250px;
+  height: 250px;
   background-color: #8c2727;
   float: left;
-  padding: 40px 0 0 40px;
 }
 
 .yellow {
@@ -64,6 +64,12 @@ body {
   border-color: #ffffff;
 }
 
+.orange-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
 .white {
   padding: 10px;
   background-color: #ffffff;
@@ -71,4 +77,3 @@ body {
   top: 20px;
   right: 20px;
 }
-
