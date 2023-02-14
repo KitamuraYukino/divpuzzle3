@@ -10,8 +10,12 @@ body {
   clear: both;
 }
 
-#orange-box div:last-child {
-  margin: 0;
+div:first-child {
+  margin-left: 0;
+}
+
+div:last-child {
+  margin-bottom: 0;
 }
 
 .red {
@@ -47,18 +51,14 @@ body {
   height: 40px;
   background-color: #a9004b;
   float: left;
-  margin: 0 0 0 10px;
-}
-
-#purple-box div:first-child {
-  margin: 0;
+  margin-left: 10px;
 }
 
 .orange {
   width: 140px;
   height: 40px;
   background-color: #ff863f;
-  margin: 0 0 10px 0;
+  margin-bottom: 10px;
   border: solid;
   border-width: 5px;
   border-color: #ffffff;
